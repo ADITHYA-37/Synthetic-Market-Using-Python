@@ -1,1 +1,9 @@
-# Synthetic-Market-Using-Python
+# Synthetic Market Maker Simulator (Python)
+
+The Synthetic Market Maker Simulator is a highly advanced Python project designed to emulate the dynamics of a financial market at a microstructural level. It simulates an order book with buy and sell orders, while incorporating a market-making agent that continuously provides liquidity. By modeling bid/ask spreads, order matching, and mid-price evolution, the project offers a practical way to understand market behavior, price formation, and the role of liquidity providers.
+
+This project allows users to simulate multiple days of trading with both automated market maker orders and random external orders, capturing the stochastic nature of real-world markets. The order book matches trades automatically, updating positions and mid-prices while generating a detailed record of trade activity. Users can observe how the interaction between liquidity provision and external demand affects price movement, providing insights into volatility, spreads, and trading volume.
+
+Implemented entirely as a single Python file using only the standard library, the Synthetic Market Maker Simulator is lightweight, accessible, and highly extendable. Contributors can easily add features such as multiple assets, more sophisticated market-making algorithms, order size variability, or different types of trading agents. This makes it an ideal educational tool for students, developers, and finance enthusiasts interested in algorithmic trading, market microstructure, and financial simulations.
+
+Beyond its educational purpose, this simulator provides a foundation for research and experimentation in financial technology. It can serve as a testbed for developing trading strategies, understanding liquidity risk, and exploring market dynamics in a controlled environment. By bridging theoretical concepts with practical simulation, the Synthetic Market Maker Simulator offers a novel, hands-on approach to financial market modeling and makes a standout Hacktoberfest 2025 project for contributors interested in cutting-edge finance applications.
